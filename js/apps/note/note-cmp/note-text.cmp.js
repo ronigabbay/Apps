@@ -8,7 +8,7 @@ export default {
 
     <section class= "note-text item" 
     :style="{'background-color': note.styles.backgroundColor }">
-        <img src="../../../../assets/icons/trash.ico" class="delete-cmp" @click="emitRemove(note.id)" />
+        <img src="./assets/icons/trash.ico" class="delete-cmp" @click="emitRemove(note.id)" />
         <p>{{note.info.txt}}</p>    
         <note-actions :note="note" ></note-actions>
         <note-edit :note="note" v-if="note.isEdit"></note-edit>

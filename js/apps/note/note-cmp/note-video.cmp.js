@@ -4,7 +4,7 @@ export default {
     template:`
 
     <section class= "note-video item" :style="{'background-color': note.styles.backgroundColor }">
-    <img src="../../../../assets/icons/trash.ico" class="delete-cmp" @click="emitRemove(note.id)" />
+    <img src="./assets/icons/trash.ico" class="delete-cmp" @click="emitRemove(note.id)" />
         <div class="video">
             <iframe width="500" height="400" :src="note.info.url" frameborder="0"> </iframe>
         </div>

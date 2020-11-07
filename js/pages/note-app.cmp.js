@@ -31,10 +31,10 @@ export default {
     data() {
         return {
             types: {
-                text: { sector: 'text', btn: 'Txt',iconSrc:'../../../../assets/icons/text.ico', placeholder: 'keep your ideas!' },
-                img: { sector: 'img', btn: 'Img',iconSrc:'../../../../assets/icons/image.ico', placeholder: 'keep your images!' },
-                todo: { sector: 'todo', btn: 'todo',iconSrc:'../../../../assets/icons/list.ico', placeholder: 'What to do next!' },
-                video: { sector: 'video', btn: 'video',iconSrc:'../../../../assets/icons/film .ico', placeholder: 'Upload a video!' }
+                text: { sector: 'text', btn: 'Txt',iconSrc:'./assets/icons/text.ico', placeholder: 'keep your ideas!' },
+                img: { sector: 'img', btn: 'Img',iconSrc:'./assets/icons/image.ico', placeholder: 'keep your images!' },
+                todo: { sector: 'todo', btn: 'todo',iconSrc:'./assets/icons/list.ico', placeholder: 'What to do next!' },
+                video: { sector: 'video', btn: 'video',iconSrc:'./assets/icons/film .ico', placeholder: 'Upload a video!' }
             },
             cmp: null,
             notes: null,

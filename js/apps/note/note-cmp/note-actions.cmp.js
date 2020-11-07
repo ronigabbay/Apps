@@ -23,7 +23,7 @@ export default {
 					</template>
 				</div>
             </i>
-            <img src="../../../../assets/icons/edit.ico" class="fas fa-edit" title="Edit" @click="editNote"/>
+            <img src="./assets/icons/edit.ico" class="fas fa-edit" title="Edit" @click="editNote"/>
 		</aside>
 	`,
 	computed: {
