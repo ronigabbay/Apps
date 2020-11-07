@@ -1,0 +1,414 @@
+
+
+
+.mail-app {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+
+
+
+
+
+/* mail list */
+
+.mail-list {
+    background-color: white;
+    flex-basis: 80%;
+}
+
+.mail-list ul {
+    margin:0;
+    padding: 0;
+}
+
+.mail-list li {
+    width: 100%;
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0;
+}
+
+
+/* mailDetails */
+
+.mail-details {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.details {
+    flex-basis: 80%;
+    margin-top: 20px; 
+}
+
+.details-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mail-read-btn {
+    background-color: rgba(20, 20, 240, 0.7);
+    color: white;
+    border-radius: 10px;
+}
+.mail-unRead-btn {
+    background-color: rgba(231, 22, 22, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.forward {
+   margin-inline-start: 50%;
+}
+
+.mail-details .mail-side-nav {
+    flex-grow: 1;
+}
+
+.mail-subject-details {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-inline-start: 3%;
+}
+.mail-subject-body {
+   margin-top: 3rem;
+   margin-right: 20%;
+   margin-left: 20%;
+   line-height: 1.5;
+}
+
+
+
+
+
+
+/* mail status */
+
+.mail-status {
+    background-color: white;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.mail-status p {
+    background-color:  lightblue;
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.mail-status p span {
+    background-color:  rgba(250, 167, 99, 0.6);
+    margin-top: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 2px ;
+}
+
+
+
+
+/* mail filter */
+
+.mail-filter {
+   flex-basis: 100%;
+   background-color: lightblue;
+   text-align: center;
+}
+
+.mail-filter input {
+   background-color: lightgrey;
+   width: 30%;
+   margin: 10px;
+   padding: 7px;
+}
+
+
+.filter-read-btn {
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgba(250, 167, 99, 0.6);
+}
+
+
+/* mail send */
+
+.mail-send {
+    display: flex;
+    background-color: white;
+    flex-basis: 80%;
+    height: 100vh;
+}
+
+
+.send-mail-btn {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+   
+}
+
+.mail-send .send-mail-btn img {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.mail-send .send-mail-btn button {
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    background-color:  rgba(20, 20, 240, 0.8);
+    color: white;
+}
+
+.mail-msg {
+    height: 100vh;
+    flex-basis: 80%;
+    text-align: center; 
+}
+
+.mail-msg input {
+    width: 100%;
+    padding: 5px;
+}
+
+.mail-msg textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.mail-msg p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 0;
+}
+
+/* .mail-msg button {
+  align-self: flex-end;
+} */
+
+
+
+
+
+/* mail side-nav */
+
+.mail-side-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+    flex-basis: 20%;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    height: 100%;
+    text-align: left;
+}
+
+
+.mail-side-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
+}
+
+.mail-side-nav span {
+    color: black;
+    font-size: 1.2rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
+}
+
+
+.mail-side-nav .router-link-active {
+    background-color: rgba(250, 167, 99, 0.6);
+  
+}
+
+
+.mail-side-nav .compose {
+    background-color: white;
+    text-decoration: none;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.4rem;
+}
+
+.mail-side-nav .compose img {
+   width: 17px;
+   height: 17px;
+}
+.mail-side-nav .inbox img {
+   width: 17px;
+   height: 17px;
+}
+.mail-side-nav .sentMail img {
+   width: 17px;
+   height: 17px;
+}
+.mail-side-nav span img {
+   width: 17px;
+   height: 17px;
+}
+
+
+
+
+/* mail preview */
+
+
+
+.mail-preview {
+    display: flex;
+    padding: 9px;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 163, 163, 0.3);
+}
+
+.read {
+   background-color: white;
+   font-family: fira-bold;
+}
+
+.mail-preview:hover {
+    cursor: pointer;
+    background-color:  rgba(228, 167, 35, 0.3);
+}
+
+.mail-preview .mailName {
+    display: flex;
+    justify-content: start;
+    flex-basis: 15%;
+}
+
+.mail-preview .maiSubject {
+    flex-basis: 80%;
+}
+
+.mail-preview .mailTime {
+    justify-content: end;
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.mail-preview img {
+   width: 19px;
+   height: 19px;
+}
+
+
+
+@media (max-width: 940px) {
+    
+    .mail-side-nav .compose {
+        width: 70%;
+        padding: 2px;
+        margin: 2px;
+        font-size: 1.1rem;
+    }
+
+    .mail-side-nav .compose img {
+        width: 0;
+        height: 0;
+    }
+
+    
+    .mail-filter input {
+        background-color: lightgrey;
+        width: 20%;
+        margin: 5px;
+        padding: 7px;
+    }
+
+    
+    .filter-read-btn {
+        width: 70px;
+        height: 25px;
+        border-radius: 15px;
+        background-color: rgba(250, 167, 99, 0.6);
+    }
+}
+
+
+
+
+@media (max-width: 650px) {
+    
+
+.mail-list {
+    background-color: white;
+    flex-basis: 90%;
+}
+
+.mail-side-nav {
+    flex-basis: 10%;
+   text-align: center;
+}
+
+
+.mail-side-nav a {
+    font-size: 0;
+}
+
+.mail-side-nav span {
+    font-size: 0;
+}
+
+
+
+.mail-side-nav .compose {
+   text-align: center;
+    font-size: 0;
+}
+
+.mail-side-nav .compose img {
+   width: 17px;
+   height: 17px;
+}
+.mail-side-nav .inbox img {
+   width: 25px;
+   height: 25px;
+}
+.mail-side-nav .sentMail img {
+    width: 25px;
+    height: 25px;
+}
+.mail-side-nav span img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.mail-msg {
+    flex-basis: 90%;
+}
+
+
+.details {
+    flex-basis: 90%;
+}
+}
