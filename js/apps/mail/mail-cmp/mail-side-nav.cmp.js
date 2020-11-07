@@ -8,7 +8,7 @@ export default {
         <router-link class="inbox" to="/mail" exact><img src="../../../../assets/icons/inbox.ico"> Inbox</router-link>
         <router-link class="sentMail" to="/send" exact><img src="../../../../assets/icons/send-mail.ico"> Sent Mail</router-link>
         <span><img src="../../../../assets/icons/star.ico"> Starred</span> 
-       <span><img src="./../../../../assets/icons/edit.ico"> Drafts</span>
+       <span><img src="./assets/icons/edit.ico"> Drafts</span>
     </section>
     `
 }
