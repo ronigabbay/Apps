@@ -177,8 +177,8 @@ function _createNotes() {
             },
             info: {
                 todos: [
-                    { txt: "Do that", doneAt: null },
-                    { txt: "Do this", doneAt: 187111111 }
+                    { text: "Call Mom", doneAt: null },
+                    { text: "Do this", doneAt: 187111111 }
                 ],
 
             },
@@ -197,17 +197,50 @@ function _createNotes() {
             },
             info: {
                 todos: [
-                    { txt: "get Milk", doneAt: null },
-                    { txt: "Help Dafna make her homework", doneAt: null },
-                    { txt: "Call grandma to wish a  happy birthday", doneAt: null },
-                    { txt: "Ask for a raise", doneAt: null },
-                    { txt: "Shower before your date", doneAt: null }
+                    { text: "get Milk", doneAt: null },
+                    { text: "Help Dafna make her homework", doneAt: null },
+                    { text: "Call grandma to wish a  happy birthday", doneAt: null },
+                    { text: "Ask for a raise", doneAt: null },
+                    { text: "Shower before your date", doneAt: null }
                 ],
 
             },
             placeholder: ''
 
-        }
+        },
+        
+        {
+            id: utilService.makeId(),
+            type: "img",
+            isPinned: true,
+            isMarked: false,
+            isEdit: false,
+            styles: {
+                backgroundColor: '#fff'
+            },
+            info: {
+                url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6Pouj75qhmAZaFx5HRAQfdzrYLDAdEOqMZw&usqp=CAU",
+                title: "Me playing Mi"
+            },
+            placeholder: ''
+        },
+        {
+            id: utilService.makeId(),
+            type: "img",
+            isPinned: true,
+            isMarked: false,
+            isEdit: false,
+            styles: {
+                backgroundColor: '#fff'
+            },
+            info: {
+                url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgyv2H-sr_Kb-9njo8kZyc0PRiC0E0Ctwz_g&usqp=CAU",
+                title: "Me playing Mi"
+            },
+            placeholder: ''
+
+        },
+
     ]
 }
 
