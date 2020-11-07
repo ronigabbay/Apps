@@ -1,6 +1,6 @@
 
 import {eventBus} from '../../../service/event-bus-service.js'
-// import fff from '../../../../assets/icons/trash.ico'
+
 
 export default {
     props:['mail'],
@@ -11,7 +11,7 @@ export default {
         <span @click="getMailDetails" class='mailName'>{{mail.name}}</span>
         <span @click="getMailDetails" class='maiSubject'>{{mail.subject}}</span>
         <span @click="getMailDetails" class='mailTime'>{{mail.sentAt}}</span>
-        <img @click="emitDelete(mail.id)" src="../../../../assets/icons/trash.ico">
+        <img @click="emitDelete(mail.id)" src="./assets/icons/trash.ico">
         <!-- <button @click="emitDelete(mail.id)">x</button> -->
     
         

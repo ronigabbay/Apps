@@ -11,15 +11,15 @@ export default {
         <mail-side-nav class="mail-side-nav"></mail-side-nav>
         <div class="details"> 
             <div class="details-btn">
-                <img @click="goBack()" src="../../../../assets/icons/back.ico">
+                <img @click="goBack()" src="./assets/icons/back.ico">
                 <button class="mail-read-btn" v-if="!mail.isRead"  @click="MailReadOrUnread">Read</button>
                 <button  class="mail-unRead-btn" v-if="mail.isRead"  @click="MailReadOrUnread">Unread</button>
-                <img @click="deleteMail(mail.id)" src="../../../../assets/icons/trash.ico">
+                <img @click="deleteMail(mail.id)" src="./assets/icons/trash.ico">
             </div>
             <h3 class="mail-subject-details">{{mail.subject}}</h3>
             <hr>
             <p class="mail-subject-body" >{{mail.body}}</p>
-            <router-link class="forward" to="/send" exact> <img src="../../../../assets/icons/forward.ico"></router-link>
+            <router-link class="forward" to="/send" exact> <img src="./assets/icons/forward.ico"></router-link>
        </div>
     </section>
     `,

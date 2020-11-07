@@ -24,7 +24,7 @@ export default {
                 <br>
                 <div class="send-mail-btn">
                     <button @click="sendMail" >Send</button>   
-                    <img @click="deleteTxt" src="../../../../assets/icons/trash.ico">
+                    <img @click="deleteTxt" src="./assets/icons/trash.ico">
                     <!-- <button @click="deleteTxt">delete</button>    -->
                 </div> 
             </form>
