@@ -1,4 +1,4 @@
-import ggg from './../../../../assets/icons'
+
 
 export default {
   props: [''],
