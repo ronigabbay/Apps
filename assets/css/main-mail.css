@@ -69,6 +69,7 @@
 
 .mail-details .mail-side-nav {
     flex-grow: 1;
+    height: 100%;
 }
 
 .mail-subject-details {
@@ -368,6 +369,17 @@
 .mail-side-nav {
     flex-basis: 10%;
    text-align: center;
+   min-height: 100vh;
+}
+
+.mail-details{
+    font-size: 14px;
+}
+
+.mail-details .mail-side-nav {
+    flex-basis: 10%;
+   text-align: center;
+   min-height: 100vh;
 }
 
 

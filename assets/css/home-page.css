@@ -17,7 +17,7 @@ h1{
 }
 .home-page{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -51,26 +51,13 @@ p{
 
 }
 .text-container{
-    transform: translateY(-75%);
-
+    padding: 30px;
 }
 
 
 
-@media (max-width: 800px) {
-    .text-container{
-        transform: translateY(-50%);
-        margin: 20px;
-   
-    }
-
-}
 @media (max-width: 600px) {
-    .text-container{
-        transform: translateY(-40%);
-        margin: 20px;
-    
-    }
+   
     .text-container{
         font-size: 14px;
     }
