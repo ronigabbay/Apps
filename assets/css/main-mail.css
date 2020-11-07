@@ -413,4 +413,19 @@
 .details {
     flex-basis: 90%;
 }
+
+
+
+.mail-preview .mailName {
+    padding: 5px;
+}
+
+.mail-preview .maiSubject {
+    padding: 5px;
+}
+
+.mail-preview .mailTime {
+    padding: 5px;
+}
+
 }
