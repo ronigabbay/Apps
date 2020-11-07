@@ -5,11 +5,11 @@
 
 @font-face{
     font-family: fira;
-    src: url(./assets/fonts/FiraSans-Regular.ttf);
+    src: url(../fonts/FiraSans-Regular.ttf);
 }
 @font-face{
     font-family: fira-bold;
-    src: url(./assets/fonts/FiraSans-Medium.ttf);
+    src: url(./fonts/FiraSans-Medium.ttf);
 }
 @font-face{
     font-family: josefin;
