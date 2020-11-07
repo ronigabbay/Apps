@@ -143,7 +143,7 @@ function _createNotes() {
             isMarked: false,
             isEdit: false,
             styles: {
-                backgroundColor: '#fff'
+                backgroundColor: '#ffff88'
             },
             info: {
                 txt: "Pick up kids from school at 15:00"
@@ -169,7 +169,7 @@ function _createNotes() {
             isMarked: false,
             isEdit: false,
             styles: {
-                backgroundColor: '#fff'
+                backgroundColor: '#ccff99'
             },
             info: {
                 url: "https://image.slidesharecdn.com/kodakpresentationrev-101116153026-phpapp01/95/kodak-case-study-1-638.jpg?cb=1422673854"
@@ -288,7 +288,7 @@ function _createNotes() {
                 backgroundColor: '#aaffee'
             },
             info: {
-                url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8HPKgIa1QQyHe17fWIOYC-CWxu8uUhKlqpA&usqp=CAU",
+                url: "https://s4.glose.com/jMkmE6TLFS/28c46d8d0a2039df2448e09cf9a68c9f044cfb65/e30%3D/starfall/57dab8d9cd26cd0056d9b033-58084fea95cee4003cf1f2de.jpg",
                 title: "Me playing Mi"
             },
             placeholder: ''
@@ -321,6 +321,21 @@ function _createNotes() {
             info: {
                 txt: "Watch the new South Park special"
             }
+        },
+        {
+            id: utilService.makeId(),
+            type: "img",
+            isPinned: true,
+            isMarked: false,
+            isEdit: false,
+            styles: {
+                backgroundColor: '#fff'
+            },
+            info: {
+                url: "https://media.ksdk.com/assets/KSDK/images/da1f5878-dd34-4345-b645-bd113b7de5e5/da1f5878-dd34-4345-b645-bd113b7de5e5_750x422.jpg",
+                title: "Me playing Mi"
+            },
+            placeholder: ''
         },
         {
             id: utilService.makeId(),
@@ -379,11 +394,12 @@ function _createNotes() {
                 backgroundColor: '#fff'
             },
             info: {
-                url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAeFBMVEX/twHuHCX/uwD/vQDtBSb5iBHtEib6jhD1Yhr/uQD/vgD/wADxSR3tDSb/wgD/tQD2bxX4ghLwNSDuIyP+rQD7mgr1aRfzWRr2chX9qAb8ngnxRB7+sAH5jA/6lgz6kg3/xwD3eRPwOB/yTxz9owf4fhLzXhnvKyF3AK0OAAAEkUlEQVR4nO2ca4+qOhSGpS3VlosgKCCoI6L8/3+4uV+LunM+zM7hfTKZTDKdxHnS1dVVVtlsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9XhJr/MHBNUP+2nXNJplqIOCrGbW8+/ZWP/Y9ATkyJN9FHt556IDuR3/nk/wKFPU2JtR/6E8RZGKdpzFmtPxFZC07coROxCRbtFaajta5/4qLWwh/DFU0k8dQyr77xWvVlrdOP6Gp93jBzkMzjk9/nQapx7xEcKn069I3D8ToQQm/a1B43f1zmZT9bDn1zmCO7EYI+50O4KZ88s936N9A3lhP3OoTYqUaY0s06r9A3luN3C5/Ym6rpyU0aSb+NaegbhW6fSEl0UG5sitl3dww/59A3VWO9uj0LPc6SRqvPeLLQ2B+QOqZmDl25QXWutlfo29wtFu6jFPomk+/c2BMkfFNpVBKL/SH0jWD3JnQFeX2w1/8N9LUTKm7t7R/v7VlW+QV9Iyles2dZSrmdZs+NkkhH6hjpY7daBD3OqtwxXmSc9aPc5NA3CMhdHbryspRy24GOfS8PSm3dgr4uIg+bMnQF/ZRyC2F2GbeezBj0dXMqq+yJzynXcu2YazyXR+jrplS1ZxGJssodwwN7azHm2iGCt1VilvZIlL9f9prBNzs5+3bWhDL0aV5ZrMntN/LK8H24Nz2woK8N3SspKo37t5WGxovgxYFVq485dOFodElfP02hj6dCiL35ttIY4qUFBw3nfbU+KxLET7+2V6QZYhgy2VnQVwsg5w912lifvAavUyJTDn0af0hyWThYXtLnMl4Ubdj3laHryu33SaPVV1i3n9BX6AvlvJHgq9nnQF9J8jeJo9K3jc0gkWjSqHQ8pBDvmqjm+qhhGPsXMm/lgz3Juxa+GV5ckGLf11YdPBOCPr+PX17S/Ax99VEpvf7F7oWzVjb0NQf1n54QDbBO7h1HBv2BVdWOK8SH55MdORX2A2tfb6tqUf42gVh340Wu6O/rZfGUVP70b+LXSiJ2ljn0DZTUTaWLfVUDeGCfWGA82wOH3/4/fonxc97mKTnxPyYQdqZJkpA9Zt/QStNQ/7HBhcfyHN7Dq33CgdVQy6MWIcTSZaNmXJiZzGJpdoG+UVA2/WmCuu/91dFtoUVo7IW13ZHy+woE+vpplbe9uSR798C8LHg5qo55c27QuiD+7CZbJy/2Q4s5/hHNucuhuHyPkpv2kzkyybH2zeV090sXK7jyXseutQd9Yzdp/34CqSvXP27SjCYe1j7V7GOn/kaguk23mH161F1cgL6Jv23vQ/kMqbxRqUX2Eycu6sWtvxSoTCD1fd7o54bUoVzbBldSlQkk35mce7tTDH0qWDh8l4HUrdl9cq51++b16hPnhZ0dOw7fjvH+nkdX6K0PES94yUdKSLTchMDj1drbiOTAuAo2eg1OdQRoqQceZu9rWhFC6DsFr+vEiaBnRzVwp6/8JWCEqpg7EeqBa00bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArIE/GtpFQ1qgfJMAAAAASUVORK5CYII=",
+                url: "https://img1.looper.com/img/gallery/will-bojack-horseman-season-7-ever-happen/intro-1584547451.jpg",
                 title: "Me playing Mi"
             },
             placeholder: ''
         },
+        
         {
             id: utilService.makeId(),
             type: "img",
@@ -394,22 +410,7 @@ function _createNotes() {
                 backgroundColor: '#fff'
             },
             info: {
-                url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRySijn1p-MyrR0eqbkNnN6oIybFhMvz8ZYbQ&usqp=CAU",
-                title: "Me playing Mi"
-            },
-            placeholder: ''
-        },
-        {
-            id: utilService.makeId(),
-            type: "img",
-            isPinned: true,
-            isMarked: false,
-            isEdit: false,
-            styles: {
-                backgroundColor: '#fff'
-            },
-            info: {
-                url: "https://image.slidesharecdn.com/kodakpresentationrev-101116153026-phpapp01/95/kodak-case-study-1-638.jpg?cb=1422673854",
+                url: "https://img4.goodfon.com/wallpaper/nbig/4/b9/chili-lake-pehoe-torres-del-paine-national-park-gory-skaly-o.jpg",
                 title: "Me playing Mi"
             },
             placeholder: ''

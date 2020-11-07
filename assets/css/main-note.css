@@ -90,6 +90,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: relative;
     /* width: 500px; */
     object-fit: contain;
+    /* padding: 20px; */
     
 }
 .color-palet{
@@ -206,9 +207,13 @@ img, iframe {
 .search-input{
     border-radius: 10px;
     padding: 5px;
+    margin-left: 15px;
 }
 .search-select{
-    border-radius: 3px;
+    border: rgb(138, 139, 139) 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left:3px ;
 }
 .inputs{
     position: relative;
@@ -242,7 +247,7 @@ img, iframe {
     
 }
 
-@media only screen and (min-width: 400px) and (max-width: 680px) {
+@media only screen and (min-width: 450px) and (max-width: 680px) {
 	.masonry {
 		column-count: 2;
     }
@@ -266,7 +271,7 @@ img, iframe {
         align-items: center;
     }
 }
-@media only screen and (min-width: 200px) and (max-width: 399px) {
+@media only screen and (min-width: 200px) and (max-width: 450px) {
     .masonry {
         column-count: 1;
     }

@@ -8,8 +8,7 @@ import noteFilter from '../apps/note/note-cmp/note-filter.cmp.js'
 import { noteService } from '../apps/note/note-service/note-service.js'
 import {
     eventBus, EVENT_NOTE_ADDED, EVENT_NOTE_PINNED,
-    EVENT_NOTE_MARKED, EVENT_NOTE_STYLED, EVENT_NOTE_EDITING, EVENT_NOTE_UPDATED,
-    EVENT_NOTE_CLONED, EVENT_NOTE_DELETED, EVENT_NOTE_CLOSING,EVENT_LIST_NOTE_STATUS_CHANGED, EVENT_NOTE_FILTERED
+     EVENT_NOTE_STYLED, EVENT_NOTE_EDITING, EVENT_NOTE_UPDATED, EVENT_NOTE_DELETED, EVENT_NOTE_CLOSING,EVENT_LIST_NOTE_STATUS_CHANGED, EVENT_NOTE_FILTERED
 } from '../service/event-bus-service.js'
 
 
@@ -119,12 +118,9 @@ export default {
         //     .then(note => this.noteToEdit = note)
         eventBus.$on(EVENT_NOTE_ADDED, (note) => this.addNote(note));
         // eventBus.$on(EVENT_NOTE_PINNED, noteId => this.pinNote(noteId));
-        // eventBus.$on(EVENT_NOTE_MARKED, noteId => this.markNote(noteId));
         eventBus.$on(EVENT_NOTE_STYLED, (noteId, bgColor) => this.styleNote(noteId, bgColor));
         eventBus.$on(EVENT_NOTE_EDITING, (noteId,data) => this.editNote(noteId,data));
         eventBus.$on(EVENT_NOTE_CLOSING, noteId => this.closeById(noteId));
-        // eventBus.$on(EVENT_NOTE_UPDATED, (note, data) => this.editNote(note, data));
-        // eventBus.$on(EVENT_NOTE_CLONED, noteId => this.cloneNote(noteId));
         eventBus.$on(EVENT_NOTE_DELETED, noteId => this.removeNote(noteId));
         eventBus.$on(EVENT_LIST_NOTE_STATUS_CHANGED, (noteId, listIdx) => this.updateListNoteStatus(noteId, listIdx));
         eventBus.$on(EVENT_NOTE_FILTERED, filter => this.updateFilter(filter));
